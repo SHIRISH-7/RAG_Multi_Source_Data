@@ -8,7 +8,9 @@ This project demonstrates the use of the Retrieval-Augmented Generation (RAG) mo
 2. **Dependencies**: Install the required Python packages using `pip`:
    ```bash
    pip install -r requirements.txt
-3. **Environment Variables**: Set up the necessary environment variables, including your OpenAI API key.
+3. **Environment Variables**: Set up the necessary environment variables, including your OpenAI API key.Create a .env file and put the key in specified format
+   ```python
+   open_ai_key="<Your_OpenAI_Key>"
 ## Usage
 Running the Code: Execute the main script to run the RAG model with multi-data sources:
 ```bash
